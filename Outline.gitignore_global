@@ -1,0 +1,23 @@
+Outline
+
+ABV Calculator app
+
+Inputs:
+    Ingredients List:
+    - Ingredient Name
+    - Ingredient ABV
+    - Ingredient Volume
+
+    Total Volume after dilution
+
+
+Instructions:
+    Measure all acoholic and non-alcoholic ingredients and input values below
+    Dilute as usual (shake it up!), strain out ice and measure final liquid Volume
+    You can delete ingredients from the list below and re-enter as needed
+
+Features:
+    Function to calculate real ABV per ingredient (eg. 45% x 2oz = .9oz alcohol)
+    Add list item to Ingredients List with function to delete
+    Function to add up ABV of each ingredient and find percentage of final volume input for actual cocktail ABV
+    Button to start over
