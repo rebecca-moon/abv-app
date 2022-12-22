@@ -16,20 +16,32 @@
   <body>
     <div class="container">
       <h1>
-        <img class="logo" src= alt="Cocktail" />
+        <img class="logo" src="" alt="Cocktail" />
       </h1>
-      <p class="message"></p>
-      <p class="word-in-progress"></p>
-      <p class="remaining">You have <span>8 guesses</span> remaining.</p>
-      <ul class="ingredients-list"></ul>
-      <form action="" class="guess-form">
-        <label for="letter">Type one letter:</label>
-        <input type="text" name="letter" class="letter" />
+      <p class="message">Measure all acoholic and non-alcoholic ingredients and input values below</p>
+      <form action="" class="ingredient-form">
+        <label for="ingredient">Ingredient:</label>
+        <input type="text" name="ingredient" class="ingredient" />
+        <label for="abv">ABV:</label>
+        <input type="text" name="abv" class="abv" />
+        <label for="amount">Amount (oz):</label>
+        <input type="text" name="amount" class="amount" />
         <div class="form-element button-element">
-          <button class="guess">Guess!</button>
+          <button class="add">Add Ingredient</button>
         </div>
       </form>
-      <button class="play-again hide">Play Again!</button>
+      <p class="cocktail-in-progress"></p>
+      <ul class="ingredients-list"></ul>
+      <p class="make-drink">Dilute as usual, then strain out all ice and measure final liquid volume.</p>
+      <form action="" class="ingredient-form">
+        <label for="final-volume">Final volume:</label>
+        <input type="text" name="final-volume" class="final-volume" />
+        <div class="form-element button-element">
+          <button class="abv-calc">Shake it up!</button>
+        </div>
+      </form>
+      <h2 class="final-abv">0.00%</h2>
+      <button class="start-over">New Cocktail</button>
     </div>
   </body>
 
